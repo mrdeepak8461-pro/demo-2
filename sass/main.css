@@ -1,0 +1,908 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+.line {
+  border: 2px solid #2a753d;
+  width: 80px;
+  margin: 1.4rem auto;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #424242;
+  border-radius: 30px;
+}
+
+header .navbar {
+  background-color: white !important;
+}
+
+header .navbar .navbar-nav .nav-item {
+  border-bottom: 2px solid transparent;
+  margin-left: 0.5rem;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link {
+  font-size: 14px !important;
+  color: rgba(0, 0, 0, 0.8) !important;
+  font-weight: 600 !important;
+  text-transform: capitalize !important;
+  font-family: "Poppins", sans-serif !important;
+  cursor: pointer;
+}
+
+header .navbar .search_ico {
+  padding-left: 1rem;
+}
+
+header .banner {
+  position: relative;
+}
+
+header .banner .owl-carousel .item img {
+  height: 70vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+header .banner .owl-nav {
+  position: absolute;
+  left: 9%;
+  bottom: 2%;
+  outline-style: none !important;
+}
+
+header .banner .owl-nav img {
+  width: 40px;
+  padding: 0rem;
+  height: 50px;
+}
+
+header .banner .owl-nav .owl-prev:hover,
+header .banner .owl-nav .owl-next:hover {
+  background: none !important;
+  color: red;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  fill: red !important;
+}
+
+header .banner .img_carousel_text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 8%;
+  left: 0%;
+}
+
+header .banner .img_carousel_text .container {
+  width: 100%;
+  height: auto;
+}
+
+header .banner .img_carousel_text .container .inner_text {
+  width: 50%;
+}
+
+header .banner .img_carousel_text .container .inner_text .corona_update {
+  padding: 0.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 1.5rem;
+}
+
+header .banner .img_carousel_text .container .inner_text .corona_update a {
+  padding: 0.5rem 1.8rem;
+  background-color: #2a753d;
+  border-radius: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+header .banner .img_carousel_text .container .inner_text .corona_update span {
+  color: wheat;
+  font-weight: 600;
+  padding: 0rem 0.8rem;
+}
+
+header .banner .img_carousel_text .container .inner_text p {
+  font-weight: 300 !important;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+header .banner .img_carousel_text .container .inner_text h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 3.5rem;
+}
+
+header .banner .img_carousel_text .container .inner_text .btn {
+  background-color: #2a753d;
+  border-radius: 1.5rem;
+  padding: 0.6rem 1rem;
+  color: white;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+header .banner .img_carousel_text .container .inner_text .btn i {
+  margin: 0rem 0.5rem;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 550px) {
+  header .container .inner_text {
+    width: 100% !important;
+  }
+  header .container .inner_text .corona_update span {
+    font-size: 0.8rem;
+  }
+  header .container .inner_text p {
+    font-size: 2rem !important;
+  }
+  header .container .inner_text h1 {
+    font-size: 1.2rem !important;
+    line-height: 2rem !important;
+  }
+}
+
+.sap_products {
+  margin-top: 1rem;
+}
+
+.sap_products .upper_heading_sap_products p {
+  margin: 0rem;
+  padding: 0rem;
+  color: #2a753d;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.sap_products .upper_heading_sap_products h2 {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+
+.sap_products .casting_side h2 {
+  font-weight: 100 !important;
+  font-size: 2.2rem;
+  margin-top: 4rem;
+}
+
+.sap_products .casting_side p {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: black;
+  line-height: 28px;
+  margin-bottom: 2rem;
+}
+
+.sap_products .casting_side .know_btn_child {
+  border: 0.1rem solid black;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1rem;
+  letter-spacing: 1px;
+}
+
+.sap_products .casting_side span {
+  padding: 0.1rem 2rem;
+}
+
+.sap_products .casting_side .download {
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  padding: 0rem;
+  margin-top: 3rem;
+  background-color: #2a753d;
+  font-weight: bold;
+  color: white;
+}
+
+.sap_products .casting_side .download img {
+  width: 50px;
+  -webkit-transform: translateX(4px);
+          transform: translateX(4px);
+}
+
+.sap_products .img_side img {
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+.sap_products .sap_products_footer .nav-tabs {
+  border: none !important;
+}
+
+.sap_products .sap_products_footer .nav-tabs .nav-item {
+  border: none !important;
+}
+
+.sap_products .sap_products_footer .nav-tabs .nav-item .nav-link {
+  border: none !important;
+}
+
+@media only screen and (max-width: 550px) {
+  .sap_products .tab-content .upper_heading_sap_products h2 {
+    font-size: 1.6rem;
+    margin-top: 0.5rem !important;
+  }
+  .sap_products .casting_side h2 {
+    margin-top: 1rem !important;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  .sap_products .casting_side p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .sap_products .casting_side .know_btn {
+    text-align: center !important;
+  }
+  .sap_products .casting_side .download {
+    display: block;
+    margin: 1.8rem auto;
+  }
+  .sap_products .tab-pane .img_side {
+    width: 100% !important;
+  }
+  .sap_products .tab-pane .img_side img {
+    width: 100%;
+  }
+  .sap_products_footer img[alt="product_section_dotted"] {
+    display: none;
+  }
+  .sap_products_footer .nav-tabs {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .sap_products_footer .nav-tabs img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.global_pharmaceutical_section {
+  color: white;
+  padding: 2.5rem 0rem;
+  background-image: url("../img/Assets/vision_bg.jpg");
+  background-size: 100%;
+}
+
+.global_pharmaceutical_section span {
+  color: #c9d12c;
+}
+
+.global_pharmaceutical_section h2 {
+  line-height: 3rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .global_pharmaceutical_section {
+    margin-top: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about_us {
+    margin-top: 0rem !important;
+  }
+}
+
+.about_us {
+  margin-top: 4rem !important;
+}
+
+.about_us .row {
+  background-color: #c9d12c;
+  text-align: justify;
+}
+
+.about_us .row .about_con {
+  padding: 2rem;
+}
+
+.about_us .row .about_con h3 {
+  font-weight: 600;
+}
+
+.about_us .row .about_con p {
+  line-height: 1.8rem;
+}
+
+.about_us .row .img {
+  background-image: url("../img/Assets/about_image.jpg");
+  background-size: 100% 100%;
+}
+
+.customers_feedbacks {
+  margin-top: 4rem;
+}
+
+.customers_feedbacks .testimonial_image {
+  display: block;
+  text-align: right;
+  background-color: white;
+}
+
+.customers_feedbacks .testimonial_image img {
+  -webkit-transform: translateX(2.4rem);
+          transform: translateX(2.4rem);
+}
+
+.customers_feedbacks .feedback_content {
+  position: relative;
+  z-index: -3;
+  background-color: #94c93d;
+  padding: 2rem;
+}
+
+.customers_feedbacks .feedback_content p {
+  margin-top: 2.5rem;
+  font-size: 1.1rem;
+  line-height: 28px;
+  text-align: justify;
+  padding-right: 6rem;
+}
+
+.customers_feedbacks .feedback_content .quote {
+  position: absolute;
+  top: -33%;
+  right: 0%;
+}
+
+@media only screen and (max-width: 550px) {
+  .customers_feedbacks .testimonial_image {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .customers_feedbacks .testimonial_image img {
+    -webkit-transform: translateX(0rem) !important;
+            transform: translateX(0rem) !important;
+    width: 100%;
+  }
+  .customers_feedbacks .feedback_content {
+    text-align: center;
+  }
+  .customers_feedbacks .feedback_content p {
+    padding: 0rem !important;
+  }
+  .customers_feedbacks .feedback_content .quote {
+    display: none;
+  }
+}
+
+footer {
+  border-bottom: 1px solid #2a753d;
+  margin-top: 4rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#2a753d), to(#c9d12c));
+  background-image: linear-gradient(to right, #2a753d, #c9d12c);
+}
+
+footer .row {
+  padding: 2rem 0rem;
+}
+
+footer .row h4 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+footer .row ul {
+  list-style: none;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+footer .row ul li {
+  line-height: 2.5rem;
+}
+
+footer .row ul li .icons i {
+  margin-right: 0.5rem;
+  font-size: 1.4rem;
+}
+
+footer .footer_copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem 0rem;
+}
+
+footer .footer_copyright p {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 550px) {
+  footer {
+    text-align: center;
+  }
+  footer h4 {
+    font-size: 1.5rem !important;
+    margin-top: 3rem;
+  }
+}
+
+.product_page .company_makes {
+  padding: 3rem 0rem 2rem 0rem;
+}
+
+.product_page .company_makes h3 strong {
+  color: #2a753d !important;
+}
+
+.product_page .sap_products_2 {
+  /* Not Important Code */
+}
+
+.product_page .sap_products_2 p,
+.product_page .sap_products_2 a,
+.product_page .sap_products_2 h1,
+.product_page .sap_products_2 h2,
+.product_page .sap_products_2 h3,
+.product_page .sap_products_2 h4,
+.product_page .sap_products_2 h5,
+.product_page .sap_products_2 h6,
+.product_page .sap_products_2 ul,
+.product_page .sap_products_2 li {
+  margin: 0;
+  padding: 0;
+}
+
+.product_page .sap_products_2 .section-services .header-section {
+  margin-bottom: 34px;
+}
+
+.product_page .sap_products_2 .section-services .header-section .title {
+  position: relative;
+  padding-bottom: 14px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.product_page .sap_products_2 .section-services .header-section .title:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background-color: #ff4500;
+  border-radius: 3px;
+}
+
+.product_page .sap_products_2 .section-services .header-section .title:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(30px);
+          transform: translateX(30px);
+  width: 10px;
+  height: 3px;
+  background-color: #504f93;
+  border-radius: 3px;
+}
+
+.product_page .sap_products_2 .section-services .header-section .description {
+  font-size: 14px;
+  color: #282828;
+}
+
+.product_page .sap_products_2 .section-services .single-service {
+  position: relative;
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px 30px;
+  overflow: hidden;
+}
+
+.product_page .sap_products_2 .section-services .single-service .content {
+  position: relative;
+  z-index: 20;
+}
+
+.product_page .sap_products_2 .section-services .single-service .circle-before {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  -webkit-transform: translate(40%, -40%);
+          transform: translate(40%, -40%);
+  width: 150px;
+  height: 150px;
+  background-color: #2a753d;
+  border: 6px solid #c9d12c;
+  border-radius: 50%;
+  z-index: 10;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.product_page .sap_products_2 .section-services .single-service:hover .circle-before {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: none;
+          transform: none;
+  border: 0;
+  border-radius: 0;
+  opacity: 1;
+}
+
+.product_page .sap_products_2 .section-services .single-service .icon {
+  display: inline-block;
+  margin-bottom: 26px;
+  width: 70px;
+  height: 70px;
+  background-color: #ff4500;
+  border-radius: 5px;
+  line-height: 70px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.product_page .sap_products_2 .section-services .single-service:hover .icon {
+  background-color: #fff;
+  color: #ff4500;
+}
+
+.product_page .sap_products_2 .section-services .single-service .title {
+  margin-bottom: 18px;
+  font-weight: 700;
+  font-size: 23px;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.product_page .sap_products_2 .section-services .single-service:hover .title {
+  color: #fff;
+}
+
+.product_page .sap_products_2 .section-services .single-service .description {
+  margin-bottom: 20px;
+  font-size: 14px;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.product_page .sap_products_2 .section-services .single-service:hover .description {
+  color: #fff;
+}
+
+.product_page .sap_products_2 .section-services .single-service a {
+  position: relative;
+  font-size: 18px;
+  color: #202020;
+  text-decoration: none;
+  font-weight: 500;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.product_page .sap_products_2 .section-services .single-service:hover a {
+  color: #fff;
+}
+
+.product_page .sap_products_2 .section-services .single-service a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #ff4500;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.product_page .sap_products_2 .section-services .single-service:hover a:after {
+  background-color: #fff;
+}
+
+.product_page .sap_products_2 .watch {
+  position: absolute;
+  top: 7px;
+  right: 15px;
+}
+
+.product_page .sap_products_2 .watch a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.product_page .sap_products_2 .watch a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product_page .sap_products_2 .watch span {
+  color: #000000;
+  opacity: 0.7;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.product_page .sap_products_2 .watch:hover span {
+  opacity: 1;
+}
+
+.product_page .sap_products_2 .watch img {
+  margin-left: 3px;
+  width: 50px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.product_page .sap_products_2 .watch:hover img {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.product_page .sap_products_2 .card_img img {
+  margin-right: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.contect_us_page header .banner {
+  margin-top: 3rem;
+  padding: 3rem 0rem;
+  background-color: #f0f5f8;
+}
+
+.contect_us_page header .banner h1 {
+  color: #2a753d;
+  font-weight: bolder;
+}
+
+.contect_us_page main .container .row {
+  margin-top: 5rem;
+}
+
+.contect_us_page main .container .row h3 {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+.contect_us_page main .container .row p {
+  margin: 1rem 0rem 3rem 0rem;
+  font-size: 15px;
+  position: relative;
+  color: #165f31;
+  font-weight: 600;
+}
+
+.contect_us_page main .container .row label {
+  font-weight: bold;
+}
+
+.contect_us_page main .container .row input {
+  width: 300px;
+}
+
+.contect_us_page main .container .row textarea {
+  height: 100px;
+}
+
+.contect_us_page main .contect_box {
+  margin-top: 2rem;
+}
+
+.contect_us_page main .contect_box .so_icons {
+  padding: 1rem 0rem;
+}
+
+.contect_us_page main .contect_box .so_icons span {
+  font-weight: 600;
+}
+
+.contect_us_page main .contect_box .so_icons i {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+.contect_us_page main .btn {
+  background-color: #2a753d;
+  border-radius: 1.5rem;
+  padding: 0.6rem 2rem;
+  color: white;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contect_us_page main .btn:hover {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+
+.contect_us_page main .map {
+  margin-top: 1rem;
+}
+
+.contect_us_page main .map iframe {
+  width: 100%;
+  height: 250px;
+  border-radius: 0.5rem;
+}
+
+.contect_us_page main .icons {
+  padding: 1rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contect_us_page main .icons i {
+  font-size: 1.6rem;
+  margin: 0rem 0.5rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.contect_us_page main .icons i:hover {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+  color: #2a753d;
+}
+
+.about_us_page .banner {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../img/Assets/plaster_about.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/Assets/plaster_about.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 50vh;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.about_us_page main .container_1 {
+  margin-top: 3rem;
+  width: 60%;
+}
+
+.about_us_page main .container .tital_about {
+  font-size: 32px;
+  line-height: 36px;
+  color: #222222;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.about_us_page main .container .text_info h4 {
+  font-size: 20px;
+  position: relative;
+  color: #165f31;
+  font-weight: 600;
+  margin: 1rem 0rem;
+}
+
+.about_us_page main .container .text_info p {
+  margin-bottom: 15px;
+  line-height: 22px;
+}
+
+.about_us_page main .container img {
+  width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin: 3rem 0rem;
+}
+
+.about_us_page main .container img:hover {
+  border-radius: 2rem;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.about_us_page main .row {
+  margin-bottom: 15px;
+  line-height: 22px;
+}
+
+@media only screen and (max-width: 550px) {
+  .about_us_page main .container_1 {
+    margin-top: 3rem;
+    width: 100%;
+  }
+}
+
+.product_details_page main {
+  margin-top: 4rem;
+}
+
+.product_details_page main .img_side img {
+  width: 100%;
+  height: 350px;
+}
+
+.product_details_page main .sap_products_footer img {
+  width: 80px;
+  height: 80px;
+}
+
+@media only screen and (max-width: 550px) {
+  .product_details_page main {
+    margin-top: 4rem;
+  }
+  .product_details_page main .img_side img {
+    width: 100% !important;
+    height: 220px;
+  }
+  .product_details_page main .sap_products_footer {
+    margin-bottom: 2rem;
+  }
+  .product_details_page main .sap_products_footer img {
+    width: 50px;
+    height: 50px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
