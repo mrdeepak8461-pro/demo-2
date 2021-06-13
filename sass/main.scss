@@ -187,28 +187,27 @@ header {
         h2 {
             margin-top: 1rem;
             text-transform: uppercase;
-            font-size: 2.6rem;
+            font-size: 3rem;
             font-weight: 500;
         }
     }
     .casting_side {
         h2 {
             font-weight: 100 !important;
-            font-size: 2.2rem;
+            font-size: 2.5rem;
             margin-top: 4rem;
         }
         p {
-            margin-top: 1.5rem;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             color: black;
-            line-height: 28px;
+            opacity: 0.8;
+            line-height: 2rem;
             margin-bottom: 2rem;
         }
         .know_btn_child {
             border: 0.1rem solid black;
             border-radius: 1.5rem;
             padding: 0.8rem 1rem;
-            letter-spacing: 1px;
         }
         span {
             padding: 0.1rem 2rem;
@@ -361,38 +360,31 @@ header {
         z-index: -3;
         background-color: $color_3;
         padding: 2rem;
-
+        h3 {
+            font-size: 2.6rem;
+        }
         p {
-            margin-top: 2.5rem;
-            font-size: 1.1rem;
-            line-height: 28px;
+            margin-top: 2rem;
+            font-size: 1.2rem;
+            line-height: 1.8;
             text-align: justify;
             padding-right: 6rem;
         }
         .quote {
             position: absolute;
-            top: -33%;
+            top: -30%;
             right: 0%;
         }
     }
 }
 @media only screen and (max-width: 550px) {
-    .customers_feedbacks {
-        .testimonial_image {
+    .customers_feedbacks{
+        .testimonial_image{
             width: 100% !important;
             text-align: center !important;
             img {
                 transform: translateX(0rem) !important;
                 width: 100%;
-            }
-        }
-        .feedback_content {
-            text-align: center;
-            p {
-                padding: 0rem !important;
-            }
-            .quote {
-                display: none;
             }
         }
     }
@@ -434,233 +426,103 @@ footer {
         }
     }
 } //end of footer
-@media only screen and (max-width: 550px) {
-    footer {
-        text-align: center;
-        h4 {
-            font-size: 1.5rem !important;
-            margin-top: 3rem;
-        }
-    }
-}
 
 // **************************************************End of index page *****************************************
 // **************************************************Start of About us page *****************************************
 
 .product_page {
+    .banner {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url("../img/Assets/plaster_about.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 70vh;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    } //end of banner
     .company_makes {
-        padding: 3rem 0rem 2rem 0rem;
-        h3 {
-            strong {
-                color: $color_1 !important;
-            }
+        margin: 3rem 0rem;
+        strong {
+            color: #2a753d;
+        }
+        p {
+            margin: 2rem 0rem;
+            font-size: 1rem;
+            text-align: center;
+            color: gray;
+        }
+        h4 {
+            font-weight: bold;
+            color: $color_1;
+            font-size: 1.8rem;
         }
     }
-    .sap_products_2 {
-        p,
-        a,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        ul,
-        li {
-            margin: 0;
-            padding: 0;
+    .sap_products {
+        .tab-content {
+            margin: 3rem auto;
+            h3 {
+                font-family: "NanumSquareR", Arial, Tahoma, sans-serif;
+                font-weight: bold;
+                font-size: 2.3rem;
+            }
+            .sap_products_box {
+                background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                    url("../img/Assets/product_bg_img3.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 100%;
+                margin: 3rem 0rem;
+                .left {
+                    background-color: $color_3;
+                }
+                .right {
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    padding: 4rem;
+                    p {
+                        font-size: 1.5rem;
+                    }
+                }
+                .top_h4 {
+                    background-color: $color_1;
+                    width: 100%;
+                    margin: 0rem;
+                    h4 {
+                        font-weight: bold;
+                        text-align: center;
+                        color: white;
+                        padding: 0.5rem 0rem;
+                    }
+                }
+                img {
+                    display: block;
+                    margin: auto;
+                }
+            }
         }
-
-        .section-services .header-section {
-            margin-bottom: 34px;
-        }
-
-        .section-services .header-section .title {
-            position: relative;
-            padding-bottom: 14px;
-            margin-bottom: 25px;
-            font-weight: 700;
-            font-size: 32px;
-        }
-
-        .section-services .header-section .title:before {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 50px;
-            height: 3px;
-            background-color: #ff4500;
-            border-radius: 3px;
-        }
-
-        .section-services .header-section .title:after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(30px);
-            width: 10px;
-            height: 3px;
-            background-color: #504f93;
-            border-radius: 3px;
-        }
-
-        .section-services .header-section .description {
-            font-size: 14px;
-            color: #282828;
-        }
-
-        .section-services .single-service {
-            position: relative;
-            margin-top: 30px;
-            background-color: #fff;
-            border-radius: 10px;
-            padding: 40px 30px;
-            overflow: hidden;
-        }
-
-        .section-services .single-service .content {
-            position: relative;
-            z-index: 20;
-        }
-
-        .section-services .single-service .circle-before {
-            position: absolute;
-            top: 0;
-            right: 0px;
-            transform: translate(40%, -40%);
-            width: 150px;
-            height: 150px;
-            background-color: $color_1;
-            border: 6px solid $color_2;
-            border-radius: 50%;
-            z-index: 10;
-            transition: all 0.6s;
-        }
-
-        .section-services .single-service:hover .circle-before {
-            width: 100%;
-            height: 100%;
-            transform: none;
-            border: 0;
-            border-radius: 0;
-            opacity: 1;
-        }
-
-        .section-services .single-service .icon {
-            display: inline-block;
-            margin-bottom: 26px;
-            width: 70px;
-            height: 70px;
-            background-color: #ff4500;
-            border-radius: 5px;
-            line-height: 70px;
-            text-align: center;
-            color: #fff;
-            font-size: 30px;
-            transition: all 0.3s;
-        }
-
-        .section-services .single-service:hover .icon {
-            background-color: #fff;
-            color: #ff4500;
-        }
-
-        .section-services .single-service .title {
-            margin-bottom: 18px;
-            font-weight: 700;
-            font-size: 23px;
-            transition: color 0.3s;
-        }
-
-        .section-services .single-service:hover .title {
-            color: #fff;
-        }
-
-        .section-services .single-service .description {
-            margin-bottom: 20px;
-            font-size: 14px;
-            transition: color 0.3s;
-        }
-
-        .section-services .single-service:hover .description {
-            color: #fff;
-        }
-
-        .section-services .single-service a {
-            position: relative;
-            font-size: 18px;
-            color: #202020;
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        .section-services .single-service:hover a {
-            color: #fff;
-        }
-
-        .section-services .single-service a:after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 1px;
-            background-color: #ff4500;
-            transition: background-color 0.3s;
-        }
-
-        .section-services .single-service:hover a:after {
-            background-color: #fff;
-        }
-
-        /* Not Important Code */
-
-        .watch {
-            position: absolute;
-            top: 7px;
-            right: 15px;
-        }
-
-        .watch a {
-            display: inline-block;
-            text-decoration: none;
-            color: inherit;
-        }
-
-        .watch a:hover {
-            text-decoration: none;
-            color: inherit;
-        }
-
-        .watch span {
-            color: #000000;
-            opacity: 0.7;
-            transition: all 0.3s;
-        }
-
-        .watch:hover span {
-            opacity: 1;
-        }
-
-        .watch img {
-            margin-left: 3px;
-            width: 50px;
-            filter: grayscale(100%);
-            transition: all 0.3s;
-        }
-
-        .watch:hover img {
-            filter: grayscale(0);
-        }
-        .card_img {
-            img {
-                margin-right: 1rem;
-                object-fit: cover;
-                object-position: center;
+        .ul_img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            ul {
+                border: none;
+                li {
+                    a {
+                        border: none;
+                        border: 1px solid $color_2;
+                        margin: 1rem;
+                    }
+                    a:hover {
+                        border: 1px solid $color_1;
+                        transition: 0.3s;
+                    }
+                }
             }
         }
     }
@@ -802,67 +664,15 @@ footer {
             }
             img {
                 width: 100%;
-                height: 350px;
+                height: 50vh;
                 object-fit: cover;
                 object-position: center;
                 margin: 3rem 0rem;
-            }
-            img:hover {
-                border-radius: 2rem;
-                transition: 0.6s;
             }
         }
         .row {
             margin-bottom: 15px;
             line-height: 22px;
-        }
-    }
-}
-@media only screen and (max-width: 550px) {
-    .about_us_page {
-        main {
-            .container_1 {
-                margin-top: 3rem;
-                width: 100%;
-            }
-        }
-    }
-}
-
-.product_details_page {
-    main {
-        margin-top: 4rem;
-        .img_side {
-           img{
-            width: 100%;
-            height: 350px;
-           }
-        }
-        .sap_products_footer {
-            img {
-                width: 80px;
-                height: 80px;
-            }
-        }
-    }
-}
-@media only screen and (max-width: 550px) {
-    .product_details_page {
-        main {
-            margin-top: 4rem;
-            .img_side {
-               img{
-                width: 100% !important;
-                height: 220px;
-               }
-            }
-            .sap_products_footer {
-                img {
-                    width: 50px;
-                    height: 50px;
-                }
-                margin-bottom: 2rem;
-            }
         }
     }
 }
